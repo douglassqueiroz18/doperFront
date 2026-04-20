@@ -1,0 +1,36 @@
+@use '@angular/material' as mat;
+
+:root {
+  --app-bg: #F6F6F6;
+  --app-surface: #DADADA;
+  --app-muted: #9D9D9C;
+  --app-primary: #0049CD;
+  --app-on-primary: #F6F6F6;
+  --app-text: #111111;
+}
+
+html {
+  height: 100%;
+  
+  @include mat.theme((
+    color: (
+      theme-type: light,
+      // No Material 3, usamos as paletas expostas diretamente no 'mat'
+      primary: mat.$azure-palette, 
+      tertiary: mat.$blue-palette,
+    ),
+    typography: (
+      brand-family: 'Roboto',
+      plain-family: 'Roboto',
+    ),
+    density: 0,
+  ));
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  background-color: var(--app-bg);
+  color: var(--app-text);
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
