@@ -22,8 +22,10 @@
   font-family: 'JetBrains Mono', monospace; // Opcional: fonte estilo código
 
   .logo-icon {
-    margin-right: 8px;
-    color: var(--app-on-primary);
+    width: 32px;      // Set a fixed size
+    height: 32px;     // Set a fixed size
+    object-fit: contain; // Ensures the image isn't distorted
+    margin-right: 12px;
   }
 
   @media (max-width: 768px) {
