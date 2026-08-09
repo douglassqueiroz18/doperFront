@@ -1,0 +1,40 @@
+{
+    "clientes":[
+        {
+            "name": "Renata Bezerra Doceria",
+            "url": "https://douglassqueiroz18.github.io/renata-bezerra-doceria/",
+            "description": "Doceria, com informações sobre produtos, contato e localização.",
+            "category": "Doceria"
+        },
+        {
+            "name": "Bel Paes",
+            "url": "https://douglassqueiroz18.github.io/belPaes/",
+            "description": "Artezanato Local.",
+            "category": "Artezanato"
+        },
+        {
+            "name": "B-Car",
+            "url": "https://douglassqueiroz18.github.io/b-car/",
+            "description": "Manutenção de veículos, com informações sobre serviços, contato e localização.",
+            "category": "Automotivo"
+        },
+        {
+            "name": "Samara Bertoche",
+            "url": "https://douglassqueiroz18.github.io/samara-bertoche/",
+            "description": "Artezanato Local.",
+            "category": "Artezanato"
+        },
+        {
+            "name": "XSpace Mobile",
+            "url": "https://douglassqueiroz18.github.io/XSpace/",
+            "description": "Soluções mobile com foco em qualidade, velocidade e confiança.",
+            "category": "Tecnologia"
+        },
+        {
+            "name": "Skina AutoEscola",
+            "url": "https://douglassqueiroz18.github.io/skina/",
+            "description": "AutoEscola, com informações sobre cursos, contato e localização.",
+            "category": "Educação"
+        }
+    ]
+}

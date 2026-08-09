@@ -1,0 +1,26 @@
+<section class="clientes-section">
+  <div class="section-head">
+    <p class="eyebrow">Portfólio</p>
+    <h2>Clientes que confiam na Doper</h2>
+    <p>Projetos entregues com estratégia, design e tecnologia.</p>
+  </div>
+
+  <div class="clientes-grid" *ngIf="!carregando; else loading">
+    <a
+      class="cliente-card"
+      *ngFor="let cliente of clientes"
+      [href]="cliente.url"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <span class="cliente-badge">{{ cliente.category }}</span>
+      <h3>{{ cliente.name }}</h3>
+      <p>{{ cliente.description }}</p>
+      <span class="cliente-link">Ver projeto →</span>
+    </a>
+  </div>
+
+  <ng-template #loading>
+    <p class="loading">Carregando clientes...</p>
+  </ng-template>
+</section>
